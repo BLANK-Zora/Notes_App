@@ -27,7 +27,6 @@ class MainApp extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    print(Provider.of<ThemeProvider>(context).themeData);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: const Notespage(),
